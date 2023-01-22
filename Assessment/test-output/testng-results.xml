@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="11" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-22T10:36:54 EET" name="Testing" finished-at="2023-01-22T10:38:43 EET" duration-ms="108804">
+    <groups>
+    </groups>
+    <test started-at="2023-01-22T10:36:54 EET" name="Regression" finished-at="2023-01-22T10:38:43 EET" duration-ms="108804">
+      <class name="testClasses.DeleteProductTest">
+        <test-method signature="DeleteProduct()[pri:1, instance:testClasses.DeleteProductTest@4e423aa2]" started-at="2023-01-22T10:38:28 EET" name="DeleteProduct" finished-at="2023-01-22T10:38:43 EET" duration-ms="15326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteProduct -->
+        <test-method is-config="true" signature="CloseWeb()[pri:0, instance:testClasses.DeleteProductTest@4e423aa2]" started-at="2023-01-22T10:38:43 EET" name="CloseWeb" finished-at="2023-01-22T10:38:43 EET" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseWeb -->
+      </class> <!-- testClasses.DeleteProductTest -->
+      <class name="testClasses.EditProductTest">
+        <test-method signature="EditImage()[pri:1, instance:testClasses.EditProductTest@25f4878b]" started-at="2023-01-22T10:37:57 EET" name="EditImage" finished-at="2023-01-22T10:38:12 EET" duration-ms="15328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditImage -->
+        <test-method signature="EditTitle()[pri:2, instance:testClasses.EditProductTest@25f4878b]" started-at="2023-01-22T10:38:12 EET" name="EditTitle" finished-at="2023-01-22T10:38:15 EET" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditTitle -->
+        <test-method signature="EditDescription()[pri:3, instance:testClasses.EditProductTest@25f4878b]" started-at="2023-01-22T10:38:15 EET" name="EditDescription" finished-at="2023-01-22T10:38:21 EET" duration-ms="6197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditDescription -->
+        <test-method signature="EditPrice()[pri:4, instance:testClasses.EditProductTest@25f4878b]" started-at="2023-01-22T10:38:21 EET" name="EditPrice" finished-at="2023-01-22T10:38:28 EET" duration-ms="6225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditPrice -->
+      </class> <!-- testClasses.EditProductTest -->
+      <class name="testClasses.AddProductTest">
+        <test-method is-config="true" signature="StartDriver(java.lang.String)[pri:0, instance:testClasses.AddProductTest@573906eb]" started-at="2023-01-22T10:36:54 EET" name="StartDriver" finished-at="2023-01-22T10:36:58 EET" duration-ms="3376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartDriver -->
+        <test-method signature="AddImage()[pri:1, instance:testClasses.AddProductTest@573906eb]" started-at="2023-01-22T10:36:58 EET" name="AddImage" finished-at="2023-01-22T10:37:16 EET" duration-ms="18431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddImage -->
+        <test-method signature="AddTitle()[pri:2, instance:testClasses.AddProductTest@573906eb]" started-at="2023-01-22T10:37:16 EET" name="AddTitle" finished-at="2023-01-22T10:37:29 EET" duration-ms="12492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTitle -->
+        <test-method signature="AddDescription()[pri:3, instance:testClasses.AddProductTest@573906eb]" started-at="2023-01-22T10:37:29 EET" name="AddDescription" finished-at="2023-01-22T10:37:41 EET" duration-ms="12455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDescription -->
+        <test-method signature="AddPrice()[pri:4, instance:testClasses.AddProductTest@573906eb]" started-at="2023-01-22T10:37:41 EET" name="AddPrice" finished-at="2023-01-22T10:37:57 EET" duration-ms="15408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPrice -->
+      </class> <!-- testClasses.AddProductTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Testing -->
+</testng-results>

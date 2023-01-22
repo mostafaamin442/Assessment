@@ -1,0 +1,9 @@
+<suite name="Testing">
+  <test name="Regression">
+    <classes>
+      <class name="testClasses.AddProductTest"/>
+      <class name="testClasses.EditProductTest"/>
+      <class name="testClasses.DeleteProductTest"/>
+   </classes>
+  </test>
+</suite>
